@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Rubik+Distressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header{
+  margin: 0;
+}
+
+.gotop {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background:rgb(130, 146, 190);
+  bottom: 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 50px;
+  color:lightgrey;
+  font-size: 22px;
+  z-index: 100;
+  font-size: 29px;
+  right: 20px;
+}
+nav a {
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Teko", sans-serif;
+}
+
+.jumbotron {
+  padding: 200px;
+  text-align: center;
+  font-size: 30px;
+  color:rgb(130, 146, 190);
+  font-family: "Bebas Neue", cursive;
+  background-size: none;
+}
+
+.my{
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  font-size: 40px;
+  font-family:"Teko", sans-serif ;
+  margin-left: 40px;
+}
+
+.huruf {
+  font-family: "Rubik Distressed", cursive;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: whitesmoke;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: grey;
+  padding: 0px 20px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 8px 0 rgba(35, 6, 86, 0.83);
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav p{
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav li {
+  display:inline;
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+body {
+  background-image: url(bintang.jpg);
+  padding: 0px;
+}
+
+ul {
+  color: whitesmoke;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  color: rgb(74, 74, 74);
+  font-family: "Teko", sans-serif;
+}
+
+h3 {
+  color:rgb(70, 68, 68);
+  font-family: "Teko", sans-serif;
+  font-size: 30px;
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+h4 {
+  color: rgb(68, 55, 184);
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+}
+
+footer {
+  padding: 20px;
+  color: lightskyblue;
+  background-color: gray;
+  font-family: "Teko", sans-serif;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+  line-height: 20px;
+}
+
+header {
+  display: inline;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 20px 20px;
+  margin-top: 20px;
+  background-color: lightgray;
+}
+
+ol li {
+  list-style: none;
+  color: white;
+}
